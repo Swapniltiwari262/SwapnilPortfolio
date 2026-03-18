@@ -146,7 +146,7 @@ export default function Navbar() {
             </motion.a>
             <div className="mt-auto flex gap-6 pb-12">
               <a href="https://github.com/Swapniltiwari262" target="_blank" className="p-5 glass rounded-2xl text-slate-400 hover:text-brand transition-colors"><Github size={28} /></a>
-              <a href="#" className="p-5 glass rounded-2xl text-slate-400 hover:text-brand transition-colors"><Linkedin size={28} /></a>
+              <a href="https://www.linkedin.com/in/swapnil-tiwari-1b0516346" target="_blank" className="p-5 glass rounded-2xl text-slate-400 hover:text-brand transition-colors"><Linkedin size={28} /></a>
             </div>
           </motion.div>
         )}

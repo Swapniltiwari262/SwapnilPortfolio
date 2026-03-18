@@ -19,7 +19,7 @@ export default function Footer() {
           <div className="flex gap-6">
             {[
               { icon: <Github size={20} />, url: "https://github.com/Swapniltiwari262", label: "Github" },
-              { icon: <Linkedin size={20} />, url: "#", label: "LinkedIn" },
+              { icon: <Linkedin size={20} />, url: "https://www.linkedin.com/in/swapnil-tiwari-1b0516346", label: "LinkedIn" },
               { icon: <Mail size={20} />, url: "mailto:swapniltiwari262@gmail.com", label: "Email" }
             ].map((social, i) => (
               <a 

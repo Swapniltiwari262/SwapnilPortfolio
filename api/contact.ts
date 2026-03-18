@@ -8,7 +8,7 @@ const contactSchema = new mongoose.Schema({
   name: String,
   email: String,
   message: String,
-  source: { type: String, default: 'Gaurav-3D-Portfolio' },
+  source: { type: String, default: 'Swapnil-Tiwari-Portfolio' },
   createdAt: { type: Date, default: Date.now },
 });
 

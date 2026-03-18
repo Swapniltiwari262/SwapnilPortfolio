@@ -51,7 +51,7 @@ export default function About() {
                 <img 
                   src="/profile.jpeg" 
                   alt="Swapnil Tiwari" 
-                  className="w-full aspect-square object-cover transition-all duration-500 lg:grayscale lg:group-hover:grayscale-0"
+                  className="w-full aspect-square object-cover object-top transition-all duration-500 lg:grayscale lg:group-hover:grayscale-0"
                 />
                 <div className="absolute inset-0 bg-brand/10 group-hover:bg-transparent transition-all duration-300" />
               </div>

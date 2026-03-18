@@ -94,7 +94,7 @@ export default function Hero() {
               
               <div className="flex items-center justify-center gap-4 mt-2 sm:mt-0 sm:ml-2">
                 <a href="https://github.com/Swapniltiwari262" target="_blank" className="p-3 sm:p-4 glass rounded-xl text-slate-400 hover:text-brand transition-all"><Github size={20} /></a>
-                <a href="#" className="p-3 sm:p-4 glass rounded-xl text-slate-400 hover:text-brand transition-all"><Linkedin size={20} /></a>
+                <a href="https://www.linkedin.com/in/swapnil-tiwari-1b0516346" target="_blank" className="p-3 sm:p-4 glass rounded-xl text-slate-400 hover:text-brand transition-all"><Linkedin size={20} /></a>
               </div>
             </div>
           </motion.div>
@@ -111,7 +111,7 @@ export default function Hero() {
             <img 
               src="/profile.jpeg" 
               alt="Swapnil Tiwari" 
-              className="w-48 h-60 sm:w-64 sm:h-80 md:w-80 md:h-[420px] object-cover rounded-[30px] sm:rounded-[50px] border-2 border-slate-800/50 shadow-2xl relative z-10"
+              className="w-48 h-60 sm:w-64 sm:h-80 md:w-80 md:h-[420px] object-cover object-top rounded-[30px] sm:rounded-[50px] border-2 border-slate-800/50 shadow-2xl relative z-10"
             />
           </motion.div>
         </div>

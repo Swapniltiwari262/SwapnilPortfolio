@@ -69,7 +69,10 @@ export default function Contact() {
                 </div>
                 <div>
                   <p className="text-[8px] sm:text-[10px] uppercase tracking-[0.2em] font-black text-slate-500">Socials</p>
-                  <p className="text-white font-bold text-sm sm:text-lg">LinkedIn / GitHub / Mail</p>
+                  <p className="text-white font-bold text-sm sm:text-lg">
+                    <a href="https://www.linkedin.com/in/swapnil-tiwari-1b0516346" target="_blank" className="hover:text-brand transition-colors">LinkedIn</a> / 
+                    <a href="https://github.com/Swapniltiwari262" target="_blank" className="hover:text-brand transition-colors ml-1">GitHub</a>
+                  </p>
                 </div>
               </div>
             </div>
