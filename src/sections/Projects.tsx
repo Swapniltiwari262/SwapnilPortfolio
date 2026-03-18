@@ -30,7 +30,7 @@ const projects = [
   },
   {
     title: 'Deep Signature AI',
-    description: 'A KIIT Major Project for analyzing financial data. Implemented hybrid deep learning techniques combining Transformers, Graph Neural Networks (GNN), and ensemble strategies for stock prediction.',
+    description: 'A Major Research Project for analyzing financial data. Implemented hybrid deep learning techniques combining Transformers, Graph Neural Networks (GNN), and ensemble strategies for stock prediction.',
     tech: ['Python', 'PyTorch', 'Transformers', 'GNN'],
     icon: <Cpu className="text-purple-400" size={32} />,
     github: 'https://github.com/Swapniltiwari262',
