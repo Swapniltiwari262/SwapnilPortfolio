@@ -1,0 +1,72 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Inter', system-ui, sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+  --color-brand: #60a5fa;
+  --color-bg: #020617;
+}
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  @apply bg-bg text-slate-300 font-sans antialiased overflow-x-hidden w-full;
+  /* Dark space gradient for depth */
+  background: radial-gradient(circle at 50% 50%, #0f172a 0%, #020617 100%);
+}
+
+/* 3D Canvas Container - Must be fixed and behind everything */
+.canvas-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 0;
+  pointer-events: none;
+}
+
+/* Content Container - Must be relative and above canvas */
+.content-wrapper {
+  position: relative;
+  z-index: 10;
+  width: 100%;
+}
+
+/* Fluid Typography & Layout */
+.container-custom {
+  @apply max-w-6xl mx-auto px-4 sm:px-6 lg:px-8;
+}
+
+section {
+  @apply py-20 sm:py-32 md:py-40;
+}
+
+/* Glassmorphism */
+.glass {
+  @apply bg-slate-900/40 backdrop-blur-md border border-slate-800/50 shadow-2xl;
+}
+
+.heading-line {
+  @apply flex items-center gap-3 sm:gap-4 text-2xl sm:text-3xl md:text-5xl font-black text-white uppercase tracking-tight;
+}
+
+.heading-line::after {
+  content: "";
+  @apply h-px bg-slate-800 flex-1 hidden md:block;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-bg;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-slate-800 rounded-full hover:bg-slate-700;
+}
